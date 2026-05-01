@@ -75,3 +75,26 @@ footer {
   background: linear-gradient(135deg, var(--primary-dark), var(--secondary-dark));
   color: white;
 }
+
+.details-table-heading {
+  width: 35%;
+}
+
+.gallery-img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.gallery-img:hover {
+  transform: scale(1.04);
+}
+
+#imagePreview img {
+  max-width: 250px;
+  max-height: 250px;
+  border-radius: 8px;
+  margin-top: 10px;
+}
