@@ -1,0 +1,77 @@
+:root {
+  --primary: #6366f1;
+  --primary-dark: #4f46e5;
+  --secondary-dark: #db2777;
+  --text-dark: #1f2937;
+  --bg-light: #f9fafb;
+  --border-color: #e5e7eb;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  color: var(--text-dark);
+  background-color: var(--bg-light);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.navbar-brand {
+  font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+  border-bottom: 1px solid var(--border-color);
+}
+
+.nav-icon {
+  font-size: 18px;
+}
+
+.nav-link {
+  color: var(--text-dark) !important;
+  font-weight: 500;
+}
+
+.nav-link:hover {
+  color: var(--primary) !important;
+}
+
+.btn-primary {
+  background-color: var(--primary);
+  border-color: var(--primary-dark);
+}
+
+.btn-primary:hover {
+  background-color: var(--primary-dark);
+  border-color: var(--primary-dark);
+}
+
+.hero-img {
+  height: 450px;
+  object-fit: cover;
+}
+
+.card {
+  border: 1px solid var(--border-color);
+  border-radius: 12px;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(99, 102, 241, 0.15);
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+  border-radius: 12px 12px 0 0;
+}
+
+footer {
+  background: linear-gradient(135deg, var(--primary-dark), var(--secondary-dark));
+  color: white;
+}
