@@ -17,7 +17,7 @@ if ($_SERVER['SERVER_NAME'] === 'localhost' || $_SERVER['SERVER_NAME'] === '127.
     // RMIT Jacob5 database settings
     $server = 'talsprddb02.int.its.rmit.edu.au';
     $user = 's3944952';
-    $password = 'Rmit123!';
+    $password = 'password';
     $database = 's3944952';
 }
 
