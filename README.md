@@ -4,7 +4,7 @@ Student: Mark Ajoy
 Student ID: s3944952
 
 ## Live Site
-https://jupiter.csit.rmit.edu.au/~s3944952/a2/
+https://jupiter.csit.rmit.edu.au/~s3944952/wp/a2/
 
 ## GitHub Repository
 https://github.com/S3944952/PetConnect
