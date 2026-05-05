@@ -2,11 +2,6 @@
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
 
-/*
-  Local XAMPP settings are used when the site runs on localhost.
-  Jacob5 settings are used when the site is deployed to the RMIT server.
-*/
-
 if ($_SERVER['SERVER_NAME'] === 'localhost' || $_SERVER['SERVER_NAME'] === '127.0.0.1') {
     // Local XAMPP database settings
     $server = 'localhost';
